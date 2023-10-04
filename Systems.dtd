@@ -1,0 +1,41 @@
+<!ELEMENT universe (galaxies*)>
+<!ELEMENT galaxies (galaxy+)>
+<!ELEMENT galaxy (gal:name,systems)>
+<!ELEMENT gal:name (#PCDATA)>
+<!ELEMENT systems (system+)>
+<!ELEMENT system (sys:name,sys:structure,stars,planets)>
+<!ELEMENT sys:name (#PCDATA)>
+<!ELEMENT sys:structure (#PCDATA)>
+<!ELEMENT stars (star+)>
+<!ELEMENT star (sta:name,sta:type,sta:temperature)>
+<!ELEMENT sta:name (#PCDATA)>
+<!ELEMENT sta:type (#PCDATA)>
+<!ELEMENT sta:temperature (#PCDATA)>
+<!ELEMENT planets (planet+)>
+<!ELEMENT planet (pla:name,pla:type,pla:temperature,habitable,native_species?,resources)>
+<!ELEMENT pla:name (#PCDATA)>
+<!ELEMENT pla:type (#PCDATA)>
+<!ELEMENT pla:temperature (#PCDATA)>
+<!ELEMENT habitable (#PCDATA)>
+<!ELEMENT native_species (specie+)>
+<!ELEMENT specie (spe:name,is_inteligent,population,caracteristics,life_span)>
+<!ELEMENT spe:name (#PCDATA)>
+<!ELEMENT is_inteligent (#PCDATA)>
+<!ELEMENT population (#PCDATA)>
+<!ELEMENT caracteristics (#PCDATA)>
+<!ELEMENT life_span (#PCDATA)>
+<!ELEMENT resources (resource+)>
+<!ELEMENT resource (res:name,res:type)>
+<!ELEMENT res:name (#PCDATA)>
+<!ELEMENT res:type (#PCDATA)>
+<!ATTLIST galaxy galaxy_id CDATA #REQUIRED>
+<!ATTLIST system system_id CDATA #REQUIRED>
+<!ATTLIST star star_id CDATA #REQUIRED>
+<!ATTLIST planet planet_id CDATA #REQUIRED>
+<!ATTLIST specie specie_id CDATA #REQUIRED>
+<!ATTLIST universe xmlns:gal CDATA #REQUIRED>
+<!ATTLIST universe xmlns:sys CDATA #REQUIRED>
+<!ATTLIST universe xmlns:sta CDATA #REQUIRED>
+<!ATTLIST universe xmlns:pla CDATA #REQUIRED>
+<!ATTLIST universe xmlns:spe CDATA #REQUIRED>
+<!ATTLIST universe xmlns:res CDATA #REQUIRED>

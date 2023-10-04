@@ -1,0 +1,67 @@
+<!DOCTYPE universe SYSTEM "Systems.dtd">
+<universe xmlns:gal="http://galaxy/html/" xmlns:sys="http://system/html/" xmlns:sta="http://star/html/" xmlns:pla="http://planet/html/" xmlns:spe="http://specie/html/" xmlns:res="http://resource/html/">
+    <galaxies>
+        <galaxy galaxy_id="1">
+            <gal:name>Vía Láctea</gal:name>
+            <systems>
+                <system system_id="1">
+                    <sys:name>sistema solar</sys:name>
+                    <sys:structure>3 dimensiones</sys:structure>
+                    <stars>
+                        <star star_id="1">
+                            <sta:name>sol</sta:name>
+                            <sta:type>G2V</sta:type>
+                            <sta:temperature>5772k</sta:temperature>
+                        </star>
+                    </stars>
+                    <planets>
+                        <planet planet_id="1">
+                            <pla:name>tierra</pla:name>
+                            <pla:type>terrestre</pla:type>
+                            <pla:temperature>30</pla:temperature>
+                            <habitable>si</habitable>
+                            <native_species>
+                                <specie specie_id="1">
+                                    <spe:name>homo sapien</spe:name>
+                                    <is_inteligent>si</is_inteligent>
+                                    <population>7888 billones</population>
+                                    <caracteristics>bipedo</caracteristics>
+                                    <life_span>80</life_span>
+                                </specie>
+                                <specie specie_id="2">
+                                    <spe:name>Hydrochoerus hydrochaeris</spe:name>
+                                    <is_inteligent>no</is_inteligent>
+                                    <population>7888 billones</population>
+                                    <caracteristics>cuadrupedo</caracteristics>
+                                    <life_span>80</life_span>
+                                </specie>
+                            </native_species>
+                            <resources>
+                                <resource>
+                                    <res:name>hierro</res:name>
+                                    <res:type>mineral</res:type>
+                                </resource>
+                                <resource>
+                                    <res:name>madera</res:name>
+                                    <res:type>planta</res:type>
+                                </resource>
+                            </resources>
+                        </planet>
+                        <planet planet_id="2">
+                            <pla:name>neptuno</pla:name>
+                            <pla:type>gaseoso</pla:type>
+                            <pla:temperature>53</pla:temperature>
+                            <habitable>no</habitable>
+                            <resources>
+                                <resource>
+                                    <res:name>metano</res:name>
+                                    <res:type>gas</res:type>
+                                </resource>
+                            </resources>
+                        </planet>
+                    </planets>
+                </system>
+            </systems>
+        </galaxy>
+    </galaxies>
+</universe>

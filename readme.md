@@ -14,6 +14,8 @@ and planets, which can possess living beings and natural resources.
 ## Built With
 
   - [PurpleBooth](https://github.com/PurpleBooth/a-good-readme-template) - used for the creation of readme
+
+  - [Visual Studio Code](https://code.visualstudio.com/) - coded in Visual Studio code
     
 
 ## Authors

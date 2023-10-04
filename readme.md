@@ -13,7 +13,7 @@ and planets, which can possess living beings and natural resources.
 
 ## Built With
 
-  - [PurpleBooth](https://github.com/PurpleBooth/a-good-readme-template) - Utilizado para el readme
+  - [PurpleBooth](https://github.com/PurpleBooth/a-good-readme-template) - used for the creation of readme
     
 
 ## Authors
@@ -23,6 +23,6 @@ and planets, which can possess living beings and natural resources.
 
 ## Acknowlegment
 
-  - Tiburcio por enseñarme xml
-  - Inspiracion del tema a ancor y sergio
+  - Tiburcio for teaching me XML
+  - Inspiration for the elected theme to ancor and sergio
   

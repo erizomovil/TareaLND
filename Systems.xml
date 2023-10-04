@@ -11,7 +11,7 @@
                         <star star_id="1">
                             <sta:name>sol</sta:name>
                             <sta:type>G2V</sta:type>
-                            <sta:temperature>5772k</sta:temperature>
+                            <sta:temperature>5772</sta:temperature>
                         </star>
                     </stars>
                     <planets>
@@ -24,16 +24,16 @@
                                 <specie specie_id="1">
                                     <spe:name>homo sapien</spe:name>
                                     <is_inteligent>si</is_inteligent>
-                                    <population>7888 billones</population>
+                                    <population>7888000000000</population>
                                     <caracteristics>bipedo</caracteristics>
                                     <life_span>80</life_span>
                                 </specie>
                                 <specie specie_id="2">
                                     <spe:name>Hydrochoerus hydrochaeris</spe:name>
                                     <is_inteligent>no</is_inteligent>
-                                    <population>7888 billones</population>
+                                    <population>67983</population>
                                     <caracteristics>cuadrupedo</caracteristics>
-                                    <life_span>80</life_span>
+                                    <life_span>12</life_span>
                                 </specie>
                             </native_species>
                             <resources>
@@ -49,13 +49,96 @@
                         </planet>
                         <planet planet_id="2">
                             <pla:name>neptuno</pla:name>
-                            <pla:type>gaseoso</pla:type>
+                            <pla:type>neptuniano</pla:type>
                             <pla:temperature>53</pla:temperature>
                             <habitable>no</habitable>
                             <resources>
                                 <resource>
                                     <res:name>metano</res:name>
                                     <res:type>gas</res:type>
+                                </resource>
+                            </resources>
+                        </planet>
+                    </planets>
+                </system>
+                <system system_id="2">
+                    <sys:name>sistema G432</sys:name>
+                    <sys:structure>2 dimensiones</sys:structure>
+                    <stars>
+                        <star star_id="2">
+                            <sta:name>Spica</sta:name>
+                            <sta:type>G2V</sta:type>
+                            <sta:temperature>6074</sta:temperature>
+                        </star>
+                    </stars>
+                    <planets>
+                        <planet planet_id="4">
+                            <pla:name>CoRoT-18 b</pla:name>
+                            <pla:type>joviano</pla:type>
+                            <pla:temperature>1122,85</pla:temperature>
+                            <habitable>no</habitable>
+                        </planet>
+                        <planet planet_id="5">
+                            <pla:name>CoRoT-22 b</pla:name>
+                            <pla:type>neptuniano</pla:type>
+                            <pla:temperature>646,65 </pla:temperature>
+                            <habitable>no</habitable>
+                            <resources>
+                                <resource>
+                                    <res:name>metano</res:name>
+                                    <res:type>gas</res:type>
+                                </resource>
+                            </resources>
+                        </planet>
+                    </planets>
+                </system>
+            </systems>
+        </galaxy>
+        <galaxy galaxy_id="2">
+            <gal:name>Vía Láctea</gal:name>
+            <systems>
+                <system system_id="3">
+                    <sys:name>sistema solar</sys:name>
+                    <sys:structure>3 dimensiones</sys:structure>
+                    <stars>
+                        <star star_id="3">
+                            <sta:name>antares</sta:name>
+                            <sta:type>G2V</sta:type>
+                            <sta:temperature>3409</sta:temperature>
+                        </star>
+                        <star star_id="4">
+                            <sta:name>pollux</sta:name>
+                            <sta:type>G2V</sta:type>
+                            <sta:temperature>2304</sta:temperature>
+                        </star>
+                    </stars>
+                    <planets>
+                        <planet planet_id="6">
+                            <pla:name>coruscant</pla:name>
+                            <pla:type>terrestre</pla:type>
+                            <pla:temperature>30</pla:temperature>
+                            <habitable>si</habitable>
+                            <native_species>
+                                <specie specie_id="1">
+                                    <spe:name>human</spe:name>
+                                    <is_inteligent>si</is_inteligent>
+                                    <population>1000000000000000</population>
+                                    <caracteristics>bipedo</caracteristics>
+                                    <life_span>300</life_span>
+                                </specie>
+                            </native_species>
+                            <resources>
+                                <resource>
+                                    <res:name>hierro</res:name>
+                                    <res:type>mineral</res:type>
+                                </resource>
+                                <resource>
+                                    <res:name>implantes</res:name>
+                                    <res:type>tecnologia</res:type>
+                                </resource>
+                                <resource>
+                                    <res:name>creditos</res:name>
+                                    <res:type>papel</res:type>
                                 </resource>
                             </resources>
                         </planet>

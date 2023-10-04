@@ -12,7 +12,7 @@
 <!ELEMENT sta:type (#PCDATA)>
 <!ELEMENT sta:temperature (#PCDATA)>
 <!ELEMENT planets (planet+)>
-<!ELEMENT planet (pla:name,pla:type,pla:temperature,habitable,native_species?,resources)>
+<!ELEMENT planet (pla:name,pla:type,pla:temperature,habitable,native_species?,resources?)>
 <!ELEMENT pla:name (#PCDATA)>
 <!ELEMENT pla:type (#PCDATA)>
 <!ELEMENT pla:temperature (#PCDATA)>

@@ -26,5 +26,5 @@ and planets, which can possess living beings and natural resources.
 ## Acknowlegment
 
   - Tiburcio for teaching me XML
-  - Inspiration for the elected theme to ancor and sergio
+  - Inspiration for the elected theme to Ancor and Sergio
   
